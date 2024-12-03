@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <!-- Mã số -->
+    <EditText
+        android:id="@+id/edtMaSo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã số" />
+
+    <!-- Họ tên -->
+    <EditText
+        android:id="@+id/edtHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ tên" />
+
+    <!-- Số điện thoại -->
+    <EditText
+        android:id="@+id/edtSoDienThoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại" />
+
+    <!-- Nút thêm mới -->
+    <Button
+        android:id="@+id/btnThemMoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm mới" />
+
+    <!-- ListView để hiển thị danh sách nhân viên -->
+    <ListView
+        android:id="@+id/lstNhanVien"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
